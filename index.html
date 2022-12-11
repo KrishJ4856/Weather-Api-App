@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>What's The Weather?</h1>
+        <p>Enter the location, Check the weather!</p>
+      </div>
+    </header>
+    <div id="inputBoxDiv">
+        <input type="text" id="inputBox" placeholder="Enter name of city" />
+    </div>
+    <main>
+      <div class="box" id="cityName">
+        <h2 id="locationName"></h2>
+        <img src="" alt="Country Image" id="countryImage">
+        <h2>Co-ordinates</h2>
+        <div id="coord">
+          <span id="lat"></span>
+          <span id="lon"></span>
+        </div>
+      </div>
+      <div class="box" id="tempBox">
+        <h2>Temperature</h2>
+        <hr>
+        <h2 id="temp"></h2>
+      </div>
+      <div class="box" id="humidityBox">
+        <h2>Humidity</h2>
+        <hr>
+        <h2 id="humidity"></h2>
+      </div>
+      <div class="box" id="pressureBox">
+        <h2>Pressure</h2>
+        <hr>
+        <h2 id="pressure"></h2>
+      </div>
+      <div class="box" id="logo">
+        <img src="" alt="Weather Image" id="logoImg" />
+        <h2 id="logoDescription"></h2>
+      </div>
+      <div class="box" id="windBox">
+        <h2>Wind</h2>
+        <hr>
+        <h2 id="wind"></h2>
+      </div>
+      <div class="box" id="sunBox">
+        <h2>Sun Rise and Sun Set</h2>
+        <hr>
+        <h2 id="sun"></h2>
+      </div>
+    </main>
+  </body>
+</html>
